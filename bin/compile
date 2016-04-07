@@ -77,7 +77,7 @@ echo "export PATH=\$COMPILE_BIN_DIR:\$PATH" > $BUILD_DIR"/.profile.d/nodejs.sh"
 # Extras
 #
 # Source scripts from "extra" dir.
-status "Running extras"
-for file in $(ls $BUILDPACK_DIR"/extra" | sort); do
-  . $BUILDPACK_DIR"/extra/"$file
-done
+#status "Running extras"
+#for file in $(ls $BUILDPACK_DIR"/extra" | sort); do
+#  . $BUILDPACK_DIR"/extra/"$file
+#done
