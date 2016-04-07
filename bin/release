@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
+#---
+#addons:
+#  - mongohq:sandbox
+#config_vars:
+
 
 cat <<-YAML
----
-addons:
-  - mongohq:sandbox
-config_vars:
+
 default_process_types:
   web: .heroku/bin/node .heroku/app/main.js
 YAML
